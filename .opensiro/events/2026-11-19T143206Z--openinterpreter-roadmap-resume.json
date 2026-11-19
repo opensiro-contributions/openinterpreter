@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "2026-11-19T143206Z--openinterpreter-roadmap-resume",
+  "recorded_at": "2026-11-19T14:32:06Z",
+  "actor": "OpenSiro project owner (explicit approval in current conversation)",
+  "kind": "DECISION",
+  "decision": "RESUME/ALLOW",
+  "scope": "Authorize only existing Open Interpreter roadmap metadata revision to Upstream v0.17.0; no product changes, public Issue/PR or recurring monitoring",
+  "evidence_urls": [
+    "https://github.com/opensiro-contributions/openinterpreter/blob/opensiro/meta/.opensiro/issues/s3-current-commitments-20261119/roadmap.md",
+    "https://github.com/opensiro/upstream/blob/main/PROTOCOL.md"
+  ],
+  "next_action": "Persist existing case revision; keep DORMANT attention and independent external publication consent"
+}

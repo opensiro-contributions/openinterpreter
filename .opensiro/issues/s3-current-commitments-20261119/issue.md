@@ -1,71 +1,40 @@
-# Open Interpreter — S3 current-commitment arbitration: on-top contribution roadmap
+# Open Interpreter — S3 current-commitment arbitration (neutral Wave 4)
 
-**OpenSiro PLAN_ONLY · `NO_USEFUL_CHANGE` · terminal `NO_GO` (this proposal only) · DRAFT — NOT PUBLISHED.**
+**PLAN_ONLY / DRAFT — NOT PUBLISHED.** This is a standalone Human-facing design research note for the existing fork-local case, not a public GitHub Issue already created.
 
-**Human decision entry:** [AI/developer contract](constructor-sufficiency.md) · [source-pinned receipt](roadmap.md) · [case identity](README.md). **Existing source-of-truth case:** [https://github.com/opensiro-contributions/openinterpreter/blob/opensiro/meta/.opensiro/issues/s3-current-commitments-20261119](https://github.com/opensiro-contributions/openinterpreter/blob/opensiro/meta/.opensiro/issues/s3-current-commitments-20261119/README.md). This reformatted Human case is persisted after explicit owner metadata `RESUME/ALLOW`; the public fork GitHub Issue remains uncreated.
+**Target transition:** S3=— -> S3=C
+**Proposal-stage decision:** GO
+**Research disposition:** NEEDS_EVIDENCE
 
-## 1. Why OpenSiro and central accepted VSM assessment
+Canonical [roadmap.md](roadmap.md) (only receipt and status authority) · Technical [constructor-sufficiency.md](constructor-sufficiency.md) · Case identity [README.md](README.md).
 
-OpenSiro tests whether reusable VSM-informed organizational descriptions and small original-native integrations can standardize and lower the engineering cost of AI-agent harnesses. Lower cost and better quality remain unmeasured hypotheses; Open Interpreter maintainers have no obligation to adopt VSM.
+## Why this might matter
+An Open Interpreter operator could hypothetically run multiple children that compete for one current resource or deadline. Existing multi-agent communication and fixed guards can coordinate and limit threads, while an optional **root-authorized current-commitment supervisor** could choose among competing assignments, apply a scoped corrective decision and confirm the later result. This is architectural research, not an observed product bug, proven cost saving, or a suggestion that maintainers must add VSM.
 
-**STARTING POINT — accepted historical Index, NOT the proposed target:** **`S1=A · S2=C · S3=— · S3*=C · S4=— · S5=—`**. [Included assessment at immutable Index commit](https://github.com/opensiro/vsm-harness-index/blob/394ce776e6945115891b8f7cc459f5a7f7d7aa39/assessments/op/open-interpreter.md); assessment blob `e892024abc1206554838d6a7330e385acf863524`, original `review_ref` `f110a7a85f43efc343f936f5bc504e01eb262550`, reviewed **2026-09-15**, last successful accepted check **2026-09-17**, Profile **0.2.1**, Methodology **0.3.1**. Current original HEAD `382f615b907279be1b6518156ac2754d3c235ff4` is newer and is not assigned a new vector here. The assessment is older than 30 days; recommend source-pinned Index reassessment before current-grade claims, not as a prerequisite for this research decision.
+**Accepted historical Index, not current-code grades:** S1=A · S2=C · S3=— · S3*=C · S4=— · S5=—. [Included Index at frozen commit](https://github.com/opensiro/vsm-harness-index/blob/308548ec89534590f948bc75dd61887e992a3756/assessments/op/open-interpreter.md), assessment blob e892024abc1206554838d6a7330e385acf863524, review f110a7a85f43efc343f936f5bc504e01eb262550, reviewed 2026-09-15, Profile 0.2.1 / Skills 0.3.1. Newer original 7a5509e307cc56d66f5c7413955bb387ab895815 reviewed separately, no automatic regrade.
 
-| Function | Accepted historical ownership | Consequence for this proposal |
-| --- | --- | --- |
-| S1 · Operations | `A` | Operating agent already does task work; not a C target. |
-| S2 · Coordination | `C` | First-party multi-agent messaging/state may be reused; no need to rebuild coordination merely for an S3 target. |
-| **S3 · Inside-and-now** | **`—`** | Historical lack of recognized agent-owned current whole-system resource control is a research lead, **not** a feature requirement. |
-| S3* · Complementary audit | `C` | Guardian independent approval review is a separate function; preserve its distinct rights. |
-| S4 · Outside-and-then | `—` | No independently justified future-adaptation feature in this evaluation object. |
-| S5 · Ultimate policy | `—` | Owner approval and permission limits are not an invitation to create autonomous policy authority. |
-
-**Boundary:** first-party Rust coding-agent, Goal lifecycle, multi-agent tools, Guardian and ACP, excluding external model providers, parent Codex policy, private extensions and maintainers as in-product controllers. Root [Apache-2.0 license](https://github.com/openinterpreter/openinterpreter/blob/382f615b907279be1b6518156ac2754d3c235ff4/LICENSE); original [PR template](https://github.com/openinterpreter/openinterpreter/blob/382f615b907279be1b6518156ac2754d3c235ff4/.github/pull_request_template.md) distinguishes Open Interpreter-owned changes from inherited Codex core. No verified personal CLA/DCO waiver or publication right is assumed. The correctly parented OpenSiro fork now has `owner_control=ALLOW` for metadata after explicit `RESUME`, with `attention=DORMANT` (no ongoing engineering or publication mandate).
-
-## 2. Proposed user capability and bounded decision
-
-**Declared evaluation object:** An *optional*, developer-composed S3 actor would arbitrate real **current shared** token/resource budgets and task commitments across simultaneously running agents; the system would apply an authorized choice and return feedback from later tasks. Its material user counterfactual must be a demonstrated inter-agent resource conflict that Goal per-thread controls, coordination and human budget policy cannot already address.
-
-**Decision: NO_GO now, for this S3 on-top constructor only.** The checked first-party evidence and available user reports do not establish that cross-agent counterfactual, a legitimate S3 decision owner or a measurable advantage over simpler native controls. Do **not** implement a generic shared manager to fill historical `S3=—`. This conclusion does **not** reject Open Interpreter itself, source-native issue #1926, or a separately qualified Goal fix.
-
-## 3. Parallel A + B — existing native work versus independent contributions
-
-Two tracks were compared before the P0 decision: **A** = shipped/pending original work; **B** = proposed OpenSiro use of that work. `OPEN_PR` is not `SHIPPED`.
-
-| Track A: native source and state | Same-task coverage | Track B: on-top option | Incremental benefit and falsifier |
+| Function / plain-language role | Historical Index state | Current first-party owner and feedback | Neutral option / rank |
 | --- | --- | --- | --- |
-| [Goal API](https://github.com/openinterpreter/openinterpreter/blob/382f615b907279be1b6518156ac2754d3c235ff4/codex-rs/ext/goal/src/api.rs) — shipped per-thread status, budgets and Goal/CAS structures | Current *individual* goal lifecycle and budget; cross-agent arbitration is not demonstrated | **Reuse unchanged:** manual/human configuration plus Goal controls | Lowest-change baseline; if it resolves a reproduced current resource conflict, new S3 is unnecessary. |
-| [List agents](https://github.com/openinterpreter/openinterpreter/blob/382f615b907279be1b6518156ac2754d3c235ff4/codex-rs/core/src/tools/handlers/multi_agents_v2/list_agents.rs) — shipped agent states | Visibility into collaborators, not organizational right to reallocate budgets | **Integrate/extend:** independently composable S3 authority over live shared budgets | `NOT_EVIDENCED`: no user conflict, right, update bridge or later-outcome comparison. |
-| [Original PR #1973](https://github.com/openinterpreter/openinterpreter/pull/1973) — **OPEN**, head `4d86fdf4b06a1b24b5884db5c56b9f5e2f79f6d7` | Proposed atomic Goal identity/revision and managed-document CAS, not merged | **On-top reuse:** wait for or integrate accepted CAS where necessary, instead of duplicating it | NO incremental proof for cross-agent allocation; PR itself does not provide S3 actor/decision. |
-| [Issue #1926](https://github.com/openinterpreter/openinterpreter/issues/1926) — **OPEN**, historical unverified success reports | Describes a task-truthfulness defect, with model-vs-harness root cause unresolved | **Distinct adjacent work:** reproducible evidence-binding or truthful verification repair, only in an independently scoped native bug study | Separate potentially useful user outcome, **NOT_APPLICABLE as S3 arbitration evidence**. Existing Issue must be reused. |
-| [Issue #1927](https://github.com/openinterpreter/openinterpreter/issues/1927) — **OPEN**, SQLite adaptation not completed | A failed S1 task; no shared resource arbitration proof | Native repair if independently requested | Not a candidate S3 controller. |
-| [Guardian](https://github.com/openinterpreter/openinterpreter/blob/382f615b907279be1b6518156ac2754d3c235ff4/codex-rs/core/src/guardian/mod.rs) — shipped review/approval | Independent approval review, not all task-completion checks | Leave unchanged; never equate an extra gate with whole-system S3 | No proven incremental S3 task. |
+| **S1 · Operations** | A | Rust agent task execution in [regular.rs](https://github.com/openinterpreter/openinterpreter/blob/7a5509e307cc56d66f5c7413955bb387ab895815/codex-rs/core/src/tasks/regular.rs) | NO_TARGET: primary work already runs |
+| **S2 · Coordination** | C | [V2 collaboration tools](https://github.com/openinterpreter/openinterpreter/blob/7a5509e307cc56d66f5c7413955bb387ab895815/codex-rs/core/src/tools/handlers/multi_agents_v2.rs), [message board](https://github.com/openinterpreter/openinterpreter/blob/7a5509e307cc56d66f5c7413955bb387ab895815/codex-rs/core/src/agent_message_board.rs) | REUSE: communication is not a resource policy |
+| **S3 · Current management** | — | [Agent control](https://github.com/openinterpreter/openinterpreter/blob/7a5509e307cc56d66f5c7413955bb387ab895815/codex-rs/core/src/agent/control.rs) status/interrupt and [fixed limiter](https://github.com/openinterpreter/openinterpreter/blob/7a5509e307cc56d66f5c7413955bb387ab895815/codex-rs/core/src/agent/control/execution.rs) | **P0:** proposed authorized autonomous commitment supervisor |
+| **S3* · Independent review** | C | [Guardian](https://github.com/openinterpreter/openinterpreter/blob/7a5509e307cc56d66f5c7413955bb387ab895815/codex-rs/core/src/guardian/review.rs) independently checks eligible actions | NO_TARGET: preserve reviewer rights |
+| **S4 · Future adaptation** | — | [Harness modes](https://github.com/openinterpreter/openinterpreter/blob/7a5509e307cc56d66f5c7413955bb387ab895815/docs/harness.md) and provider configuration | DEFER: no source-proven prospective loop here |
+| **S5 · Ultimate policy** | — | [Root user authorization](https://github.com/openinterpreter/openinterpreter/blob/7a5509e307cc56d66f5c7413955bb387ab895815/codex-rs/core/src/agent/control/user_authorization.rs) and parent settings | NO_TARGET: parent S5 is not delegated |
 
-[Original PR #1981](https://github.com/openinterpreter/openinterpreter/pull/1981) remains an open large Codex-main integration at head `ed0e5147a6d770975a025a7f8461939706a7e4dc`; do not assume proposed extension seams or merge status. The [original PR template](https://github.com/openinterpreter/openinterpreter/blob/382f615b907279be1b6518156ac2754d3c235ff4/.github/pull_request_template.md) directs general inherited behavior upstream to `openai/codex`.
+## Proposed capability, in ordinary language
+An optional root-authorized supervisor reads current child commitments, remaining resource envelopes and completion/status feedback. It chooses **preserve, defer, reassign or interrupt** when two tasks compete, and applies a checked change through existing runtime control. It later observes whether the authorized change actually affected the child's work and decides again. The agent doing the ordinary task does not become the S3 decision owner; model messages, static caps and Guardian alone do not constitute that loop.
 
-## 4. Priority and minimum sufficient construction
+The missing native implementation would be a versioned current-commitment snapshot, narrow checked supervisory decision/effect seam, feedback correlation and developer-composable bounded decision actor. This is a **proposed construction**, not existing code. No new root policy grants or approval bypass.
 
-| Priority | Decision | Minimal conditional capability/evidence |
-| --- | --- | --- |
-| **P0 · S3=C on-top** | **REJECTED / NO_GO now** | A real cross-agent current constraint → first-party shared state/options → independently composed lawful S3 decision actor → enforced change to subsequent agent tasks → observed feedback; no evidence of material need yet. |
-| **P1 · native dependencies** | **NOT ADMITTED for this rejected P0** | Existing Goal budgets/agent states; any atomic Goal CAS depends on original PR review and acceptance, not a roadmap mandate. |
-| **P2 · optional** | **NONE** | No separate function/mode target inferred from a historical `—`. Issue #1926 is a distinct bug lead, **not** a P2 S3 constructor. |
+## Track A versus Track B
+Track A has first-party [multi-agent status](https://github.com/openinterpreter/openinterpreter/blob/7a5509e307cc56d66f5c7413955bb387ab895815/codex-rs/core/src/tools/handlers/multi_agents_v2/list_agents.rs), [agent-control](https://github.com/openinterpreter/openinterpreter/blob/7a5509e307cc56d66f5c7413955bb387ab895815/codex-rs/core/src/agent/control.rs), [child completion return](https://github.com/openinterpreter/openinterpreter/blob/7a5509e307cc56d66f5c7413955bb387ab895815/codex-rs/core/src/agent/control/completion.rs), [fixed child limits](https://github.com/openinterpreter/openinterpreter/blob/7a5509e307cc56d66f5c7413955bb387ab895815/codex-rs/core/src/agent/control/execution.rs), and optional Guardian. [Original PR #1973](https://github.com/openinterpreter/openinterpreter/pull/1973) proposes Goal CAS but is **open/unmerged**; [PR #1981](https://github.com/openinterpreter/openinterpreter/pull/1981) is also **open/unmerged**. [Issues #1926](https://github.com/openinterpreter/openinterpreter/issues/1926) and [#1927](https://github.com/openinterpreter/openinterpreter/issues/1927) address different task-level failures.
 
-The full sufficiency and authority negatives are in the [AI contract](constructor-sufficiency.md). Proposed tests have **not** run. No target C is shipped or accepted by the Index.
+Track B proposes a bounded S3 actor using the native actions/status above rather than copying another task-board or mistaking a deterministic counter for autonomous resource management. A source-native integration must prove authority and outcome. A matched manual-parent baseline and unauthorized-denial test are required before any implementation claim.
 
-## 5. Acceptance and stop gates
+## Independent result and historical comparison
+**Proposal-stage GO / research NEEDS_EVIDENCE.** The v0.18.0 post-release neutrality check asks whether an S3=C constructor can be architecturally constructed, not whether product owners want it. The older case's **NO_GO / NO_USEFUL_CHANGE** was based on missing demonstrated user conflict, incremental value and independently proven owner; that remains a useful product research caution but **does not veto the coherent proposed C chain**. This is the same stable evaluation object and prior commits are preserved. Neither decision changes the Index.
 
-**If a real S3 task later emerges**, a future proposal must demonstrate an authorized actor selecting at least two lawful alternatives on the same real resource conflict and changing later native task behavior; reject an absent, revoked, stale or cross-agent unauthorized actor; preserve Goal/Guardian/ACP compatibility and compare against the cheapest native workaround. If a simple Goal setting or human choice achieves the same outcome, reject the new constructor. This is a falsifier, **not** a commitment to write code or run tests. The existing evidence is insufficient for GO.
+**Falsifier:** Equivalent first-party autonomous S3 decision/effect/feedback ownership already ships, or a legitimate checked effect/returned outcome cannot be implemented inside this session boundary. Native positive/negative/compatibility tests **NOT_RUN**; cost **NOT_MEASURED**. P1 authorization/receipt and overlap testing precedes any product work; P2 visual status is optional.
 
-## 6. Independent possible routes
-
-Source-native issue #1926 may warrant an isolated replay and defect fix in Open Interpreter-owned ACP/provider behavior; inherited Codex issues belong with Codex per the original PR template. Neither is automatically selected work. Profile/Skills feedback requires a separately evidenced semantic gap; a domain-specific fork is not justified here.
-
-## 7. Matched cost hypothesis
-
-Future comparison, if real task evidence emerges: identical concurrent-agent workload and authorization constraints with (a) native Goal/budget and human controls versus (b) proposed composable S3 agent. Measure correctness, action effect/feedback, engineering, integration, test/review and maintenance effort. **`NOT_MEASURED`**; no cost-saving claim.
-
-## 8. Decision and handoff
-
-**Final operator decision: NO_GO — only for the S3 shared-resource constructor evaluated here.** Do not implement/publish a new S3 controller or assert an Index grade. Do not treat native #1926/#1927 or PR #1973 as disproven/closed. **PLAN_ONLY / NO_USEFUL_CHANGE for this proposed addition.** [Technical AI/developer file](constructor-sufficiency.md) and [receipt](roadmap.md) carry the same baseline and verdict.
-
-**Fork GitHub Issue:** exact public body would be this Human document, but this is **DRAFT — NOT PUBLISHED**. Its creation requires separate current-conversation approval. **Original Issue:** do not open a duplicate; any independently justified original proposal likewise needs separate approval. Metadata was updated under an attributable owner `RESUME/ALLOW`; no public communication is authorized by that grant. AI assistance was used; no human code review, first-party test execution or savings measurement is claimed.
+**Publication:** No original/public fork Issue or PR, review or product change. This Human text is a **DRAFT — NOT PUBLISHED**; publication requires separate explicit owner approval.

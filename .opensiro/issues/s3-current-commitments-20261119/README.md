@@ -1,17 +1,13 @@
-# Open Interpreter — S3 current commitments | Upstream v0.17.0
+# Open Interpreter — S3 current commitments · post-release neutral Wave 4
 
-**PERSISTED FORK-LOCAL CASE.** Reformatted under Upstream v0.17.0 following the owner's explicit metadata `RESUME/ALLOW` on 2026-11-19, recorded in append-only event `2026-11-19T143206Z--openinterpreter-roadmap-resume`. The fork remains `DORMANT`: no scheduled watching, engineering, or outward publication follows.
+**Current proposal-stage result: GO / NEEDS_EVIDENCE, S3=— -> S3=C, PLAN_ONLY.** An optional bounded root-authorized cross-child commitment supervisor is structurally specifiable, not implemented or endorsed by original maintainers.
 
-- Original: `https://github.com/openinterpreter/openinterpreter` — `main` at `382f615b907279be1b6518156ac2754d3c235ff4` (observed 2026-11-19).
-- Accepted Index: [394ce776e6](https://github.com/opensiro/vsm-harness-index/blob/394ce776e6945115891b8f7cc459f5a7f7d7aa39/assessments/op/open-interpreter.md); assessment blob `e892024abc1206554838d6a7330e385acf863524`, review `f110a7a85f43efc343f936f5bc504e01eb262550`, date 2026-09-15, Profile 0.2.1 / Methodology 0.3.1.
-- Fork: `opensiro-contributions/openinterpreter` (verified fork parent `openinterpreter/openinterpreter`). Previous `opensiro/meta` HEAD `d4f98202024c09187afb53bed6689ec96bd87a41` (immutable pre-resume provenance); owner control now `ALLOW`, attention remains `DORMANT`.
-- Persisted case: [https://github.com/opensiro-contributions/openinterpreter/blob/opensiro/meta/.opensiro/issues/s3-current-commitments-20261119/README.md](https://github.com/opensiro-contributions/openinterpreter/blob/opensiro/meta/.opensiro/issues/s3-current-commitments-20261119/README.md), not changed by this draft.
-- **Evaluation object:** proposal to add an independently composable S3 current shared-budget/commitment arbitration path to the first-party multi-agent Open Interpreter runtime.
-- **Terminal decision for that object only:** `NO_GO`; result `NO_USEFUL_CHANGE` for the proposed constructor, not a veto on the harness or on unrelated native repairs.
-- **A + B research:** native Goal/agent features and open PRs vs independent reuse/extension/adjacent options (see `roadmap.md`).
-- Human/owner-facing public-fork-Issue draft: [issue.md](issue.md).
-- AI/developer evidence and falsification: [constructor-sufficiency.md](constructor-sufficiency.md).
-- Structured receipt: [roadmap.md](roadmap.md).
-- No code, public GitHub Issue, external original Issue/PR, new contribution record, Index regrade or measured savings.
-
-**Scoped owner decision:** This owner `RESUME/ALLOW` authorizes metadata work on the existing case, not product implementation, surveillance, original-maintainer contact, or public GitHub Issue/PR publication. Public fork Issue creation still requires exact current-conversation approval. Keep the stable directory and filenames without a `-v2` suffix.
+- Same stable evaluation object: s3-current-commitments-20261119, current original https://github.com/openinterpreter/openinterpreter/commit/7a5509e307cc56d66f5c7413955bb387ab895815.
+- Accepted Index (not regraded): https://github.com/opensiro/vsm-harness-index/blob/308548ec89534590f948bc75dd61887e992a3756/assessments/op/open-interpreter.md, assessment blob e892024abc1206554838d6a7330e385acf863524, reviewed 2026-09-15.
+- Upstream v0.18.0 neutral protocol: https://github.com/opensiro/upstream/commit/28ea2cce06b517bc4550dceddb00210b1e0dc85c.
+- First-pass independent decision was frozen before opening old case; subsequent comparison is in [roadmap.md](roadmap.md).
+- Canonical fork-local receipt [roadmap.md](roadmap.md); Human draft [issue.md](issue.md); AI contract [constructor-sufficiency.md](constructor-sufficiency.md).
+- Historical v0.17.0 NO_GO / NO_USEFUL_CHANGE is preserved by prior Git history and is not retroactively regraded; its product-desirability concerns remain open. The 2026-11-19 baseline original was 382f615b907279be1b6518156ac2754d3c235ff4.
+- Fork owner control ACTIVE / ALLOW last verified on 2026-11-20; no unrelated S4 GO case modified.
+- Original native tests NOT_RUN, cost NOT_MEASURED, publication NOT_PUBLISHED, original product code unchanged.
+- No original/public fork GitHub Issue or PR authorized; this is metadata only.

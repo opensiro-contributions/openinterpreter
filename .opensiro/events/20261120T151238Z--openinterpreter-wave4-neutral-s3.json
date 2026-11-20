@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "20261120T151238Z--openinterpreter-wave4-neutral-s3",
+  "recorded_at": "2026-11-20T15:12:38Z",
+  "actor": "OpenSiro operator (owner-directed Upstream #58 Wave 4)",
+  "kind": "CHECKPOINT",
+  "decision": "INDEPENDENT_RERUN_GO_NEEDS_EVIDENCE",
+  "scope": "Only existing Open Interpreter S3 current commitments roadmap; proposal-stage GO S3=— -> S3=C, research NEEDS_EVIDENCE. No product code, Index regrade or external/public fork Issue/PR",
+  "evidence_urls": [
+    "https://github.com/opensiro/upstream/issues/58#issuecomment-7042663622",
+    "https://github.com/opensiro/vsm-harness-index/blob/308548ec89534590f948bc75dd61887e992a3756/assessments/op/open-interpreter.md",
+    "https://github.com/openinterpreter/openinterpreter/commit/7a5509e307cc56d66f5c7413955bb387ab895815",
+    "https://github.com/opensiro/upstream/commit/28ea2cce06b517bc4550dceddb00210b1e0dc85c"
+  ],
+  "note": "Independent first-pass verdict was frozen before reading the old v0.17 case. Historical NO_GO preserved by Git history. Structural case validator PASS (not semantic/native verification); native tests NOT_RUN; cost NOT_MEASURED; publication NOT_PUBLISHED.",
+  "next_action": "Owner/maintainer independently decides whether native test and adoption research is desirable; no automatic implementation or publication."
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "id": "20261120T161408Z--openinterpreter-v0181-native-specific",
+  "recorded_at": "2026-11-20T16:14:08Z",
+  "actor": "OpenSiro operator (owner-requested v0.18.1 native-specific self-review)",
+  "kind": "CHECKPOINT",
+  "decision": "SAME_CASE_NATIVE_SPECIFIC_REVIEW_GO_NEEDS_EVIDENCE",
+  "scope": "Open Interpreter existing Wave 4 S3 current commitments case only. P0 narrowed to root-authorized V2 next-turn admission; P1 original-native atomic permit and feedback integration; P2 NONE. Old independent verdict preserved; no Index regrade, product code, public fork/original issue/PR or new Upstream report PR.",
+  "evidence_urls": [
+    "https://github.com/opensiro/upstream/commit/14973244a474cc643c01ce04d70913f51c714b74",
+    "https://github.com/opensiro/upstream/commit/ae7a8a6d32b4da1c5fd97c6862821460503bf9e2",
+    "https://github.com/openinterpreter/openinterpreter/commit/7a5509e307cc56d66f5c7413955bb387ab895815",
+    "https://github.com/opensiro/vsm-harness-index/blob/308548ec89534590f948bc75dd61887e992a3756/assessments/op/open-interpreter.md",
+    "https://github.com/opensiro/upstream/issues/58"
+  ],
+  "note": "v0.18.0 proposal GO / NEEDS_EVIDENCE retained with narrower source-native MultiAgentV2 scope; generic reassign and guaranteed feedback assumptions corrected. Original native tests NOT_RUN, cost NOT_MEASURED. This is not a fresh independent first pass and no extra metric/gate was introduced.",
+  "next_action": "Potential future root-authorized native A/B/negative tests in original V2 runtime only if separately approved; do not claim ability to change active commitments or confirmed task outcomes until first-party implementation/test evidence."
+}
